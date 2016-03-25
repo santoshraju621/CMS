@@ -15,6 +15,7 @@ This was our final project for the Software Guild. It's a CMS (blog) system.
   2. Built the UserDao.java to interact with the MySQL database
   3. Created the contact/mail system
   4. Integrated my file uploader into TinyMCE
+  5. JUnit Testing
   
 - Ongoing improvements:
   1. Finish the contact/mail system
@@ -23,17 +24,14 @@ This was our final project for the Software Guild. It's a CMS (blog) system.
   4. Create single blog page (ie blog/showPost/{id})
   
 ###The Big Picture.
--This CMS system is written in JAVA, Javascriipt, JSON, HTML, CSS etc. 
-
--It uses many libraries and frameworks, including: Spring, BootStrap, JQuery, TinyMCE, etc.
-
--The structure is a basic Spring MVC: Controllers / DAOs / Models / and includes Spring validation
-
--The controllers use Spring RequestMapping, ResponseBody, and many RequestParams, Models, PathVariables, etc.
-
--The DAOs interact with the MySQL database, using JDBC 
-
--The security uses Spring security and BCrypt
+- This CMS system is written in JAVA, Javascriipt, JSON, HTML, CSS etc. 
+- It uses many libraries and frameworks, including: Spring, BootStrap, JQuery, TinyMCE, etc.
+- The structure is a basic Spring MVC: Controllers / DAOs / Models / and includes Spring validation
+- The controllers use Spring RequestMapping, ResponseBody, and many RequestParams, Models, PathVariables, etc.
+- The DAOs interact with the MySQL database, using JDBC 
+- The security uses Spring security and BCrypt
+- Tested using JUnit 
+-Build dependencies managed via Maven
 
 ##Contributors
 Christopher Glisch
