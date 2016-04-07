@@ -24,7 +24,7 @@ This was our final project for the Software Guild. It's a CMS (blog) system.
   4. Create single blog page (ie blog/showPost/{id})
   
 ###The Big Picture.
-- This CMS system is written in JAVA, Javascriipt, JQuery, JSON, HTML, CSS 
+- This CMS system is written in JAVA, Javascriipt, JSON, HTML, CSS 
 - It uses many libraries and frameworks, including: Spring, BootStrap, JQuery, TinyMCE
 - The structure is a basic Spring MVC: Controllers / DAOs / Models / and includes Spring validation
 - The controllers use Spring RequestMapping, ResponseBody, and many RequestParams, Models, and PathVariables
