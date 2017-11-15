@@ -1,7 +1,7 @@
 # CMS
 This was our final project for the Software Guild. It's a CMS (blog) system. 
 
-###The Upshot
+### The Upshot
 - My main focus on the project was buidling a custom image uploader:
     1. The image uploader takes a multipart file from html
     2. Creates a JQuery AJAX call with the file
@@ -23,7 +23,7 @@ This was our final project for the Software Guild. It's a CMS (blog) system.
   3. Create different access levels (ROLE_ADMIN, ROLE_USER, etc.)
   4. Create single blog page (ie blog/showPost/{id})
   
-###The Big Picture.
+### The Big Picture.
 - This CMS system is written in JAVA, Javascriipt, JSON, HTML, CSS 
 - It uses many libraries and frameworks, including: Spring, BootStrap, JQuery, TinyMCE
 - The structure is a basic Spring MVC: Controllers / DAOs / Models / and includes Spring validation
@@ -33,7 +33,8 @@ This was our final project for the Software Guild. It's a CMS (blog) system.
 - Tested using JUnit 
 - Build dependencies managed via Maven
 
-##Contributors
+## Contributors
+
 Christopher Glisch
 
 David Egbert
